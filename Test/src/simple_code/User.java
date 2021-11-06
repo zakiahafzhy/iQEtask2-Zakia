@@ -19,4 +19,8 @@ public class User {
     public void setNoHP(String noHP) {
         this.noHP = noHP;
     }
+
+    public String getInfo() {
+        return "Halo, nama saya " + this.nama;
+    }
 }
